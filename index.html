@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div></div>
+      <nav>
+        <div class="logo">folio <b>.</b></div>
+        <ul class="navItems">
+          <li><a href="">home</a></li>
+          <li><a href="">about</a></li>
+          <li><a href="">skills</a></li>
+          <li><a href="">blog</a></li>
+        </ul>
+        <div class="links">
+          <a href="" class="fab fa-linkedin"></a>
+          <a href="" class="fab fa-instagram"></a>
+          <a href="" class="fab fa-twitter"></a>
+        </div>
+      </nav>
+
+      <div class="wrapper">
+        <div class="cols cols0">
+        
+          <span class="topline">Hello</span>
+          <h1>I'm <span class="multiText"> </span></h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing accusantium fugit
+            explicabo asperiores laboriosam iusto porro nobis quod qui deleniti
+            ipsam atque mollitia et alias totam in corporis velit!
+          </p>
+          <div class="btns">
+            <button>Download cv</button>
+            <button>Hire me</button>
+          </div>
+        </div>
+
+        <div class="cols cols1">
+          <div class="imgbox">
+            <img src="./img/splash.png" alt="" id="splash" />
+            <img src="./img/perfil.png" alt="" id="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="http://cdn.jsdelivr.net/npm/typed.js@2.0.12" >   
+    </script>
+
+    <script>
+      var typingEffect = new Typed(".multiText",{
+        strings:["Youtube","Coder","Developer","Designer"],
+        loop:true,
+        typeSpeed:100,
+        backSpeed:80,
+        backDelay:1500
+      })
+    </script>
+  </body>
+</html>
